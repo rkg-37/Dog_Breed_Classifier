@@ -22,7 +22,7 @@ On execution, outputs are saved in the txt file for different architecture.
 # Execution step
 
 * python check_images.py --dir (directory with images) --arch model --dogfile (ile that contains dognames) 
-    * --arch,--dir,--dog  are the argument type defined using argparse module in python
+    * --arch,--dir,--dog  are the argument type defined using **argparse module** in python
     example:
              python check_images.py --dir pet_images/ --arch vgg --dogfile dognames.txt
              
