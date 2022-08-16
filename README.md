@@ -30,5 +30,7 @@ On execution, outputs are saved in the txt file for different architecture.
   
  # How to use this repository
  
- 
-  
+ To use classfier for the new Images 
+      * add the files in new folder(created by the user)
+      * using the execution script add the directory 
+      * run it
