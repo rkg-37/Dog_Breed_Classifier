@@ -13,7 +13,7 @@ Image File:
   
 Shell Script:
 This files help in batch processing i.e classifying images using different architecture using different models.
-This files execute using command: sh <file-name>.sh
+This files execute using command: sh file-name.sh
 On execution, outputs are saved in the txt file for different architecture.
 
   * run_models_batch.sh
@@ -21,7 +21,7 @@ On execution, outputs are saved in the txt file for different architecture.
   
 # Execution step
 
-* python check_images.py --dir <directory with images> --arch <model> --dogfile <file that contains dognames> 
+* python check_images.py --dir (directory with images) --arch model --dogfile (ile that contains dognames) 
     * --arch,--dir,--dog  are the argument type defined using argparse module in python
     example:
              python check_images.py --dir pet_images/ --arch vgg --dogfile dognames.txt
